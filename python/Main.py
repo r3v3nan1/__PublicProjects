@@ -62,6 +62,8 @@ else:
 #opens the main OPERATION WINDOW
 
 #imports for window
+
+
 import tkinter as tk
 from PIL import ImageTk, Image
 
@@ -94,36 +96,43 @@ def closewindow():
 # Create a label widget
 label1 = tk.Label(window, text="-PythoOS system-", font=("Arial", 20))
 label2 = tk.Label(window, text="-PythoOS Version 0.01-", font=("Arial", 10))
-
-pythonFilePath1 = "C:\PythoOS\MainResources\Secondary.py"
+"""
+pythonFilePath1 = "/workspaces/__PublicProjects/python/Secondary.py"
+"""
+"""
+Needs ursina
 pythonFilePath2 = "C:\PythoOS\MainResources\minecraft.py"
+"""
 
 #Add to a button on the os to run another python file
+"""
 def Runfile():
     global pythonFilePath1
-    import Secondary.py    
     if os.path.exists(pythonFilePath1):
         print("File does exist")
         exec(open('Secondary.py').read())
         closewindow()
     else:
         print("Error: file doesnt exist")
-
+"""
+"""
 RunButton = tk.Button(window, text="Run - snake" , command= Runfile)
 RunButton.place(x=1100,y=10)
-
+"""
 def Runfile2():
     global OSheight
     global OSwidth
     
     global pythonFilePath2
+    """
+    Code needs ursina
     import minecraft.py    
     if os.path.exists(pythonFilePath2):
         print("File does exist")
         exec(open('minecraft.py').read())
     else:
         print("Error: file doesnt exist")
-
+    """
     reset_screen()
 
 RunButton = tk.Button(window, text="Run - minecraft" , command= Runfile2)
