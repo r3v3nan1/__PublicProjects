@@ -1,8 +1,9 @@
 # AboutMe
 A quick about me
 
-Hello this keegan carmean/ my account R3v3nan1 is use as a code platform for me as i use and give code for
-------know basics and some advance--------
+ps. this is for my WORK account and this is for a website
+
+My account R3v3nan1 is use as a code platform for me as i use and give code for------know basics and some advance--------
 Python
 C#
 Java
