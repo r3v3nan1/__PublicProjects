@@ -1,14 +1,24 @@
 # AboutMe
 A quick about me
 
-ps. this is for my WORK account and this is for a website
+ps. this is for my WORK account and this is for a website.
 
-My account R3v3nan1 is use as a code platform for me as i use and give code for------know basics and some advance--------
+My account R3v3nan1 is use as a code platform for me as i use and give code for
+
+------know basics and some advance--------
+
 Python
+
 C#
+
 Java
+
 HTMl
+
+------------------------------------------
+
 ------learning-------
+
 C++ soon
 
 ---------------------
